@@ -1,0 +1,111 @@
+h1 {
+    color: blue;
+    text-decoration-line: underline;
+    text-decoration-color: cyan;
+  }
+
+header {
+    padding: 1.5cm;
+    background-color:aliceblue;  /*header backgroud color*/
+    text-align: center;
+}
+
+
+ul, nav {
+    margin: 1vw;
+    padding-left: .5em;
+  }
+
+li 
+{
+    width: 32cm;
+    height: 15px;
+    margin-bottom: 1vh;
+    padding: 1px;
+  }
+
+p {
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+  }
+
+  @media (dynamic-range: standard) {
+    p {
+      color: #fcb;
+    }
+  }
+
+.container {
+    display: flex; /* or inline-flex */
+  }
+
+  button:hover {
+    color:red;
+  }
+
+  .Btn:active {
+    box-shadow: 2px 2px 5px #fc894d;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px; 
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  div.static {
+    position: static;
+    border: 3px solid #73AD21;
+  }
+
+  nav.fixed {
+    position: fixed;
+    top: 0;
+
+    width: 2000px;
+    
+  }
+
+  p.ex1 {display: none;}
+  
+  p.ex2 {display: inline;}
+
+  p.ex3 {display: block;}
+
+  p.ex4 {display: inline-block;}
+
+  a[href^="#"] { 
+    background-color: yellow;
+  }
+
+  *{
+    background-color: azure;
+  }
+
+  section div { 
+    background-color: yellow;
+  }
+
+  div > p { 
+    background-color: yellow;
+  }
+
+  #h3{
+    color:black
+  }
+
+  div + p { 
+    background-color: red;
+  }
+
+  p ~ ul {
+    background: #ff2384;
+  }

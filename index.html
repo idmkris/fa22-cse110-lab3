@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Note</title>
+    <link rel="icon" type="image/x-icon" href="favicon-standard.png"/>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header style="font-size:60px;">First Meeting</header>
+    <h2>04/13/2023</h2>
+    <nav class="fixed">
+        <ul class="container">
+          <li><a href="https://www.w3schools.com">Home</a></li>
+          <li><a href="#Leftover">ABout</a></li>
+          <li><a href="#Conatct">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+        <h2>Attendance</h2>
+            <div class="grid-container">
+                <div class="grid-item">Tim</div>
+                <div class="grid-item">Elon</div>
+                <div class="grid-item">Mark</div>
+            </div>
+            </section>
+        <hr>
+        <h1>Leftover from last meeting</h1>
+        <p>Last meeting <p class="ex2"> </p>had a brief meetup for the team members to get to know each other. We did a samll icebreaker and each of us introduced what we are good. We believe we will eventually come up on top in the competetion.</p>
+        <hr>
+        <h1>New Stuff</h1>
+        <h2>Proposition</h2>
+
+        <div>
+        <p>The ideas we had are <p class="ex1" maybe>:</p>
+
+        </div>
+        <p>for css purposes</p>
+        <ul>
+            <li>Timer</li>
+            <li>Stopwatch</li>
+            <li>Navigation App</li>
+        </ul>
+        <h3>Timer</h3>
+        <span>A workout timer<p class="ex4"> </p> that can <strong>calculatethe amount of calories burnt at the time</strong></span>
+
+        <h3>Stopwatch</h3>
+        <p>The stopwatch in <i><b>League of Legends</b></i> that you are immune to all damage but can not move for 2.5 seconds</p>
+
+        <h3 id="h3">Navaigation app</h3>
+        <p>Basically like <em>Google map</em>(Hopefully we can sell it to Google later).</p>
+        <hr>
+        <h2>Goal for next meeting</h2>
+        <p>For next meeting,<p class="ex3"> </p>have to decide what project we are going to do for the sake of time. Also, we need to lay out the basic design of whatever project we are going to do.</p>
+        <hr>
+       
+        <h1>Miscellaneous</h1>
+        <h3>Diagram from the meeting</h3>
+        <img src="Flowchart_2.png"
+            alt="fc"
+            width="250">
+        <details>
+            <summary>Documents</summary>
+                <a href="https://www.tomatotimers.com">Link to the website for our ideas</a>
+                <br>
+                <br>
+                <span>Meeting recording</span>
+                <br>
+                <video controls width="320" height="240" autoplay muted>
+                    <source src="IMG_1405.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                  Your browser does not support the video tag.
+                </video>
+                <br>
+                
+                <span>Meeting audio</span><br>
+                
+                <audio
+                    controls
+                    src="audio.m4a">
+            </audio>
+        </details>
+        <br>
+        <hr>
+        <br>
+        <form onsubmit="alert('Sent')">
+            <fieldset>
+             <legend>Comments:</legend>
+             <textarea id="story" name="story"
+                rows="5" cols="33">
+            </textarea>
+            <br><br>
+            <label>date:</label>
+            <input type="date" id="data" name="date"><br><br>
+            <label>Will you come to next meeting?</label><br><br>
+             
+            <select name="yes-no" id="yes-no-choice">
+                <option value="No">Yes</option>
+                <option value="Yes">No</option>
+
+            </select><br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+           
+
+    </main>
+    <footer>
+        <form>
+            <fieldset>
+            <legend>Please select your preferred contact method:</legend>
+            <div class="static">
+                <input type="radio" id="contactChoice1" name="contact" value="email" />
+                <label for="contactChoice1">Email</label>
+          
+                <input type="radio" id="contactChoice2" name="contact" value="phone" />
+                <label for="contactChoice2">Phone</label>
+          
+                <input type="radio" id="contactChoice3" name="contact" value="mail" />
+                <label for="contactChoice3">Mail</label>
+            </div>
+            <br>
+            <label>Email Address or Phone Number or Mail Address:</label>
+
+            
+          
+            
+            <br>
+            <br>
+            <input type="text">
+            <input list="ending-option">
+            <datalist id="ending-option">
+                <option value="gamil.com">
+                <option value="ucsd.edu">        
+            </datalist>
+            <br>
+            <br>
+            <div>
+            <button class="Btn" type="submit">Submit</button>
+            </div>
+            </fieldset>
+          </form>
+
+        <div>&copy; Chris at cse110</div>
+        <a href="chriswong9248@gmail.com">Click to Contact</a>
+    </footer>
+</body>
+</html>
