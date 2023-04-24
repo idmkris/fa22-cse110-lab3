@@ -6,53 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meeting Note</title>
     <link rel="icon" type="image/x-icon" href="favicon-standard.png"/>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <header style="font-size:60px;">First Meeting</header>
     <h2>04/13/2023</h2>
-    <nav>
-        <ul>
-          <li><a href="#Attendance">Attendance</a></li>
-          <li><a href="#Leftover">Leftover</a></li>
-          <li><a href="#NewBusiness">New Business</a></li>
-          <li><a href="#Miscellaneous">Miscellaneous</a></li>
+    <nav class="fixed">
+        <ul class="container">
+          <li><a href="https://www.w3schools.com">Home</a></li>
+          <li><a href="#Leftover">ABout</a></li>
+          <li><a href="#Conatct">Contact</a></li>
         </ul>
     </nav>
     <main>
         <section>
         <h2>Attendance</h2>
-            <ol>
-                <li><input type="checkbox" />Tim</li>
-                <li><input type="checkbox" />Jeff</li>
-                <li><input type="checkbox" />Mark</li>
-                <li><input type="checkbox" />Elon</li>
-            </ol>
-        </section>
+            <div class="grid-container">
+                <div class="grid-item">Tim</div>
+                <div class="grid-item">Elon</div>
+                <div class="grid-item">Mark</div>
+            </div>
+            </section>
         <hr>
         <h1>Leftover from last meeting</h1>
-        <p>Last meeting we had a brief meetup for the team members to get to know each other. We did a samll icebreaker and each of us introduced what we are good. We believe we will eventually come up on top in the competetion.</p>
+        <p>Last meeting <p class="ex2"> </p>had a brief meetup for the team members to get to know each other. We did a samll icebreaker and each of us introduced what we are good. We believe we will eventually come up on top in the competetion.</p>
         <hr>
         <h1>New Stuff</h1>
         <h2>Proposition</h2>
 
-        
-        <p>The ideas we had are maybe:</p>
+        <div>
+        <p>The ideas we had are <p class="ex1" maybe>:</p>
+
+        </div>
+        <p>for css purposes</p>
         <ul>
             <li>Timer</li>
             <li>Stopwatch</li>
             <li>Navigation App</li>
         </ul>
         <h3>Timer</h3>
-        <span>A workout timer that can <strong>the amount of calories burnt at the time</strong></span>
+        <span>A workout timer<p class="ex4"> </p> that can <strong>calculatethe amount of calories burnt at the time</strong></span>
 
         <h3>Stopwatch</h3>
         <p>The stopwatch in <i><b>League of Legends</b></i> that you are immune to all damage but can not move for 2.5 seconds</p>
 
-        <h3>Navaigation app</h3>
+        <h3 id="h3">Navaigation app</h3>
         <p>Basically like <em>Google map</em>(Hopefully we can sell it to Google later).</p>
         <hr>
         <h2>Goal for next meeting</h2>
-        <p>For next meeting, we have to decide what project we are going to do for the sake of time. Also, we need to lay out the basic design of whatever project we are going to do.</p>
+        <p>For next meeting,<p class="ex3"> </p>have to decide what project we are going to do for the sake of time. Also, we need to lay out the basic design of whatever project we are going to do.</p>
         <hr>
        
         <h1>Miscellaneous</h1>
@@ -110,7 +112,7 @@
         <form>
             <fieldset>
             <legend>Please select your preferred contact method:</legend>
-            <div>
+            <div class="static">
                 <input type="radio" id="contactChoice1" name="contact" value="email" />
                 <label for="contactChoice1">Email</label>
           
@@ -137,7 +139,7 @@
             <br>
             <br>
             <div>
-            <button type="submit">Submit</button>
+            <button class="Btn" type="submit">Submit</button>
             </div>
             </fieldset>
           </form>
